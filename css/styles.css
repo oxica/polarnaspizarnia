@@ -462,11 +462,18 @@ img {
   object-position: center;
 }
 
-.visit__shadow{
+/* .visit__shadow{
   background: linear-gradient(180deg,
   hsl(0,0%,6%)0%,
   hsla(0,0%,4%,.1)50%,
   hsl(0,0%,6%)100%);
+} */
+
+.visit__shadow{
+  background: linear-gradient(180deg,
+  hsl(41, 45%, 21%)0%,
+  hsla(0,0%,4%,.1)50%,
+  hsl(41, 45%, 21%)100%);
 }
 
 .visit__data{
@@ -863,6 +870,11 @@ img {
   .footer__logo,
   .footer__title{
     margin-bottom: 1.5rem;
+  }
+
+  .footer__logo{
+    font-size: 2.5rem;
+
   }
 
   .footer__content{
