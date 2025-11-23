@@ -79,7 +79,7 @@ const sr = ScrollReveal({
 
 sr.reveal('.home__data, .about__img, .about__data, .visit__data' )
 
-sr.reveal('.home__image, .footer__img-1, .footer__img-2', {rotate:{z:-15}})
+sr.reveal('.footer__img-1, .footer__img-2', {rotate:{z:-15}})
 sr.reveal('.home__bread, .about__bread', {rotate:{z: 15}})
 sr.reveal('.home__footer', {dcale:1, origin:'bottom'})
 
